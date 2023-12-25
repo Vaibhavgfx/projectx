@@ -185,8 +185,10 @@ html, body {
 .page3 h1{
     font-size: 6.8vw;
     font-weight: 300;
-    color: #111;
+    color: #000000;
     margin-left: 100px;
+    text-transform: uppercase;
+    font-weight: 400
 }
 .page3-part1{
     display: flex;
@@ -243,14 +245,21 @@ html, body {
 
 .elem:hover h1{
     transform: translateY(-100%);
-    color: #212121;
+    color: #ff61dd;
 }
 .elem:hover img{
     opacity: 1;
     transform: translateY(0%) rotate(0deg);
 
 }
-
+.text-div{
+    text-transform: capitalize;
+}
+.topdomain{
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+}
 
 .page5{
     min-height: 100vh;
